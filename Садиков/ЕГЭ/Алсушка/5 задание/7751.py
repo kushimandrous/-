@@ -8,4 +8,4 @@ for n in range(1000,10000):
     result = str(min_a) + str(max_a)
     if result == '117':
         a.append(n)
-print(a)#test
+print(a)#test1
