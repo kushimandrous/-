@@ -3,4 +3,4 @@ def f(n):
         return 3
     if n>1:
         return f(n-1)*(n-1)
-print(f(6))
+print(f(6))#1
