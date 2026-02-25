@@ -6,4 +6,4 @@ while s>0:
     print(s,m)
 
 t =m.count('0')
-print('yes',t)
+print('yes',t) #26
