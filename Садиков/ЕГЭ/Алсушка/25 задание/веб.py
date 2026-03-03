@@ -1,3 +1,4 @@
+
 # for x in range(53671,125699):
 #     c = set()
 #     if x**0.5==int(x**0.5):
