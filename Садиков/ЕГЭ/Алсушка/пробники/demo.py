@@ -74,3 +74,18 @@ print(2**9)
 print(2**8)'''
 
 
+with open("C:/Users/UserPC/Desktop/alsuege/alsu/DEMO_9.csv") as f:
+    c = 0
+    for x in f:
+        a = list(map(int, x.strip().split(',')))
+        a.sort()
+        c+=1
+        dif = set(a)#5
+        np = [x for x in a if a.count(x)==1]
+        pt = [x for x in a if a.count(x)>1]
+        srn = sum(np)//len(np)
+        crp= sum(pt)//len(pt)
+        if len(dif)==5 and srn<=crp:
+            b = sum(a)
+print(b,c)
+
